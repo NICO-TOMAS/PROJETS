@@ -1,0 +1,182 @@
+
+
+
+/*     les commentaires en C.S.S
+                                        */
+
+
+ 
+* {
+
+    overflow: auto;
+}                                        
+
+
+body {
+
+    min-width: 770px;
+    max-width: 1500px;
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p.categorie {
+
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div.contenu {
+
+    overflow: visible;
+    background-color: white;
+    margin: 60px 10% 40px 10%;
+    padding: 0px 30px 5px 30px;
+    box-shadow: 0px 0px 15px 15px rgba(0,0,0,0.3);
+}
+
+h1.titre {
+
+    text-align: center;
+    font-size: 30px;
+}
+
+p.description {
+
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.centre {
+
+    text-align: center;
+    width: 100%;
+}
+
+div.categorie {
+    
+    overflow: visible;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+div.separateur {
+
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.infos {
+
+    position: relative;            
+}
+
+table.infos {
+
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 14%;         
+}
+
+table.infos td {
+
+    text-align: center;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+table.infos th {
+
+    padding-bottom: 5px;
+    vertical-align: bottom;
+}
+
+img.infos {
+
+    display: block;
+    min-height: 200px;
+    max-height: 400px;
+    background-color: lightgray;
+    object-fit: cover; 
+}
+
+div.colonne {
+
+    margin-top: 5px;
+    margin-bottom: 20px;;
+    width: 45%;
+}
+
+div.colonne1 {
+
+    display: inline-block;    
+}
+
+div.colonne2 {
+
+    float: right;
+}
+
+div.colonne h2 {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 3px solid #6C829D;
+    padding-bottom: 7px;
+}
+
+div.colonne1 p {
+
+    text-align: center;
+    padding: 12px 0px;
+    margin-top: 35px;
+    border: 1px solid #8BA1BB;  
+}
+
+table.preparation p.numero {
+
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+    margin-top: 18px;
+
+    
+    padding-top: 4px;
+}
+
+table.preparation td.etape {
+
+    
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+table.preparation tr {
+
+    height: 60px;
+}
